@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change City</title>
+</head>
+<body>
+    <h1>Change City</h1>
+    <form method="POST" action="/change_city">
+        <label for="ccity">Current City:</label>
+        <select name="ccity" required>
+            <option value="">--Select your current city--</option>
+            <option value="Cairo">Cairo</option>
+            <option value="New York">New York</option>
+        </select><br>
+
+        <label for="ncity">New City:</label>
+        <select name="ncity" required>
+            <option value="">--Select your new city--</option>
+            <option value="Cairo">Cairo</option>
+            <option value="New York">New York</option>
+        </select><br>
+        <input type="submit" value="Change City">
+    </form>
+</body>
+</html>
